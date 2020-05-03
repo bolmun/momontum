@@ -126,7 +126,7 @@ h4 {
   width: 65%;
   display: flex;
   position: absolute;
-  top: 500px;
+  bottom: 30px;
   justify-content: space-around;
   align-items: baseline;
   color: white;
