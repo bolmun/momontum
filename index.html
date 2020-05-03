@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Momontum</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="js-clock">00:00</h1>
+      <div class="js-greeting">
+        <form class="js-greetingForm">
+          <input type="text" placeholder="[ your name? ]" />
+        </form>
+        <h2 class="js-greetingText name"></h2>
+      </div>
+    </header>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write what to do" />
+    </form>
+    <div class="todo">
+      <div class="todo__pending">
+        <h3>Pending</h3>
+        <ul class="js-toDoList pending"></ul>
+      </div>
+      <div class="todo__finished">
+        <h3>Finished</h3>
+        <ul class="js-toDoList finished"></ul>
+      </div>
+    </div>
+
+    <div class="js-weather">
+      <i class="fas fa-thermometer-three-quarters"></i>
+      <span class="js-weatherDetail"></span>
+      <i class="fas fa-street-view"></i>
+      <span class="js-weatherLocation"></span>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
